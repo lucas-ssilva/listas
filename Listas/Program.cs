@@ -24,7 +24,7 @@ namespace Listas
                 Console.Write("Name: ");
                 var nome = Console.ReadLine();
                 Console.Write("Salary: ");
-                var salario = double.Parse(Console.ReadLine());
+                double salario = double.Parse(Console.ReadLine());
 
                 list.Add(new Funcionario(id, nome, salario));
             }
