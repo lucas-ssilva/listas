@@ -20,9 +20,9 @@ namespace Listas
                 Console.WriteLine();
                 Console.WriteLine("Emplyoee #{0}:", i);
                 Console.Write("Id: ");
-                var id = int.Parse(Console.ReadLine());
+                int id = int.Parse(Console.ReadLine());
                 Console.Write("Name: ");
-                var nome = Console.ReadLine();
+                string nome = Console.ReadLine();
                 Console.Write("Salary: ");
                 double salario = double.Parse(Console.ReadLine());
 
